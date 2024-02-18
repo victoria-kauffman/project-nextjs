@@ -1,0 +1,17 @@
+.articleForm {
+  /* DONE: fix the form layout */
+  /* button and textarea should be in one "column" */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articleEditor {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-width: 2px;
+  border-color: black;
+}
+
+.article {
+  padding: 30%;
+}
